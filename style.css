@@ -1,0 +1,33 @@
+.cell {
+  width: 120px;
+  height: 100px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  float: center;
+  /* background-color: #000000 */
+}
+body {
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+#gameContainer {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin-left: 35%;
+  margin-right: 50%;
+}
+button {
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
